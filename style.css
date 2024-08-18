@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+    color: white;
+}
+.container 
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    gap: 4px;
+}
+.container > div
+{
+    height: 200px;
+    width: -200px;
+    cursor: pointer;
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: rgb(156, 5, 88);
+     
+    }
+ .container > div:hover{
+    opacity: 0.8;
+    transform: scale(0.9);
+}
+.container > div :nth-last-of-type(1)
+{
+    grid-column: 1/2;
+}
+.bg-1 
+{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmlN9_OniwN8gNWq90BBlqct8ChPr7F93i0A&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.b1-1 h1{
+     color: rgb(216, 113, 130) ;
+     text-align: center;
+}
+.bg-2
+{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmlN9_OniwN8gNWq90BBlqct8ChPr7F93i0A&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.bg-3{
+
+
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmlN9_OniwN8gNWq90BBlqct8ChPr7F93i0A&s');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bg-4{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8xL_OjwzHedbrPDA5AybBYbVn1AmhgKVcFA&s');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+  
+}
+.bg-5{
+    background-image: url('logo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+}
+.bg-5 p{
+    color: aliceblue;
+    
+}
+.bg-6{
+    background-image: url('https://liliyum.com/cdn/shop/files/pinkbutterflyCake_360x.jpg?v=1711002935');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-7{
+    background-image: url('https://5.imimg.com/data5/ANDROID/Default/2021/6/DZ/BP/GU/67146408/chocklate-pinata-cake1617799852-jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-8{
+    background-image: url('https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/Paul_Red_Velvet_Cake_1024_V3-1024x450.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-9{
+    background-image: url('https://i0.wp.com/www.lavenderandlovage.com/wp-content/uploads/2020/06/Swedish-Midsummer-Cake-2.jpg?resize=680%2C505&ssl=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
